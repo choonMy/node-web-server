@@ -16,3 +16,7 @@ Required nodejs > v8 installed.
 - npm install
 - node server.js
 
+or
+docker build -t <companyName>/nodewebserver . 
+docker run -p 1234:3000 -d <companyName>/nodewebserver
+
